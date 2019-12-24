@@ -2,33 +2,9 @@
 	"author": "MoskalykA",
 	"version": "1.0",
 	"server_scripts": [
-        "vehicle/server/event.lua",
-        "vehicle/server/command.lua",
-        "server/command.lua",
-        "server/event.lua"
-	],
-	"client_scripts": [
-        "client/event.lua",
-        "spawn/client.lua"
-    ],
+		"vehicle/server/event.lua",
+		"vehicle/server/command.lua"
+        ],
+	"client_scripts": [],
 	"files": []
-}
-
-{
-	"author": "MoskalykA",
-	"version": "1.0",
-	"server_scripts": [
-                "vehicle/server/command.lua",
-                "server/command.lua",
-                "server/event.lua"
-        ],
-	"client_scripts": [
-                "client/event.lua",
-                "spawn/client.lua"
-        ],
-	"files": [
-                "spawn/web/spawn.html",
-                "spawn/web/spawn.css",
-                "spawn/web/spawn.js"
-        ]
 }
